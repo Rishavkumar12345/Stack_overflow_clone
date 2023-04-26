@@ -1,0 +1,115 @@
+.question-detail-page{
+    width: calc(100%-300px-24px);
+    float: left;
+    margin: 25px 0px;
+    padding: 0px;
+}
+
+.ques-detail-container{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+
+.ques-detail-container2{
+    display: flex;
+}
+
+.ques-votes{
+    padding: 5px 20px 5px 10px;
+}
+
+.ques-votes p{
+    margin: 0%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ques-detail-container .ques-body{
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+.ques-detail-container .ques-tag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ques-detail-container .ques-tag p, .post-ans p .ans-tag{
+    padding: 5px 5px;
+    margin: 3px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #e1ecf4;
+    color: #39739d;
+    text-decoration: none;
+}
+
+.ques-action-user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ques-action-user button{
+    background-color: transparent;
+    border: none;
+    padding: 5px 0px;
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: #939292;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    
+}
+
+.ques-action-user button:active{
+    border-bottom: solid 2px black;
+}
+
+.ques-action-user div:nth-child(2) p,.ques-action-user div:nth-child(2) .user-link{
+    text-decoration: none;
+    font-size: 14px;
+    margin:0%;
+}
+
+.user-link{
+    display: flex;
+    align-items: center;
+}
+
+.user-link div{
+    padding-left: 10px;
+}
+
+.post-ans{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: solid 1px black;
+}
+
+.post-ans form textarea{
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    width: calc(100%-20px);
+    resize: vertical;
+}
+
+.post-ans form .post-ans-btn{
+    margin: 20px 0px;
+    padding: 10px 10px;
+    background-color: #009dff;
+    color: white;
+    border: solid 1px #009dff;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.post-ans form .post-ans-btn:hover{
+    background-color: #0086d8;
+}
+

@@ -1,0 +1,19 @@
+<div className='ask-question'>
+      <h1>Ask a public question</h1>
+      <form className='form1'>
+          
+          <h3>Title</h3>
+          <p>Be specific and imagine you're asking a question to another persons</p>
+          <input type="text" className='txtbox' value="e.g. Is there an R function to finding the index of an element in a vector?"/>
+        
+        
+        <h3>Body</h3>
+        <p>Include all the information someone would need to answer your question</p>
+        <input type="text"/>
+        <h3>Tags</h3>
+        <p>Add up to 5 tag in description what your question is about</p>
+        <input type="text"  value="e.g. XML typescript workpress"/>
+      </form>
+
+      <button className='submit-btn'>Review your Question</button>
+    </div>
